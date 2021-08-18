@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="./resources/css/style.css">
     
 
-    <title>psd jquery pluging</title>
+    <title>myDesign</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -72,7 +72,7 @@
     <div id="particles-js"></div>
 
     <!-- Hero section -->
-    <section id="hero_section">
+    <section class="hero_section" id="hero_section">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6 align-self-center">
@@ -81,7 +81,7 @@
               <h1>Md. Arif Hossain</h1>
              <div id="animated_headline">
               <h2 class="ah-headline">
-               <span class="ah-words-wrapper " style="color: blueviolet; font-size: 20px; text-align: center;">
+               <span class="ah-words-wrapper " >
                     <b class="is-visible">Programmer</b>
                     <b>WebDevloper</b>
                     <b>Designer</b>
@@ -129,40 +129,28 @@
               <div class="parent">
                 <h1 class="about-head">About Me</h1>
                <p class="about-head">My introduction</p>
-               <div class="child"></div>
                
-
               </div>
-              <div class="paragraph">
-                <nav class="navbar navbar-expand-lg para_nav " style="margin-left:  -23px; margin-top: -33px;">
-                  <div class="container-fluid">
-                    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav" >
-                        <li class="nav-item">
-                          <a class="nav-link active show" aria-current="page" href="#">profile</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link " aria-current="page" href="#">skills</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link " aria-current="page" href="#">contact</a>
-                        </li>
-                        
-                      </ul>
-                    </div>
-                  </div>
-                </nav>
-                <div class="container introduction">
-                  <p class="mt-3">
-                    Hello. I'm Arif. I'm a tech enthusiast guy. Personally, I’m Optimistic and always in hurry kinda person. I'm a freelance web developer. I study CSE in South-East university.<br> <br>
-                    I started my career as a Web Designer. After one year of consistently working in this field, it helped me a lot in gaining vast knowledge about business, marketing, and user experience too. I've tried a few more things to understand customer satisfaction, Business engagement & marketing including E-commerce business, Portfolio, Blogging, Youtube and etc.
-                  </p>
+              <div class="tab-section">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> Gubergren est nonumy rebum tempor ipsum, ipsum nonumy sadipscing amet eos eos accusam eos. Voluptua magna ut sed sed sed dolor takimata. Sit magna ipsum et erat. Diam erat sed no dolor sanctus takimata ipsum clita accusam. At sit ipsum vero magna elitr. Ut diam sit amet sea magna, dolores. </div>
+                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">. Times mothernot nor if old eros that alone my control his. Had where whateer to coffined other ancient in had him, fountain and little upon he might to. Labyrinth mote. .</div>
+                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">. Da manchmal gartens du gehofft kleinem glaube seufzer. Denkst wo zuletzt die gehn helle deiner die rast trübhell. Und weiter. .</div>
                 </div>
+
                </div>
+               <!-- end tab-section -->
 
            
           </div>
@@ -170,19 +158,18 @@
       </div>
     </section>
      <!-- services section -->
-    <section class="services">
+    <section class="services-secton">
       <div class="container ">
-        <div class="row text-center ">
-          <div class="parent">
+        <div class="text-center ">
+          
             <h1 class="heading mt-3">My services</h1>
             <p class="heading">What i will serve for you!</p>
-            <div class="child2"> </div>
-          </div>
+           
         </div>
 
         <div class="row">
           <div class="col-12 col-md-4">
-            <div class="card text-center" style="background-color: #CBF4DD;">
+            <div class="card card-1 text-center" >
               <div class="img-box mt-3">
                 <img src="./resources/images/about/web-design.65e86a5.svg" class="img-fluid img2" alt="...">
               </div>
@@ -195,7 +182,7 @@
             </div>
           </div>
           <div class="col-12 col-md-4">
-            <div class="card text-center" style="background-color: #FEDEC7;">
+            <div class="card card2 text-center">
               <div class="img-box mt-3">
                 <img src="./resources/images/about/web-development.3c47f06.svg" class="img-fluid img2" alt="...">
               </div>
@@ -208,7 +195,7 @@
             </div>
           </div>
           <div class="col-12 col-md-4">
-            <div class="card text-center" style="background-color: #CBF4DD;">
+            <div class="card card3 text-center" >
               <div class="img-box mt-3">
                 <img src="./resources/images/about/wordpress.1a3cdb8.svg" class="img-fluid img2" alt="...">
               </div>
@@ -224,7 +211,7 @@
         </div>
         <div class="row mt-4">
           <div class="col-12 col-md-4">
-            <div class="card text-center" style="background-color: #FEDEC7;">
+            <div class="card card4 text-center">
               <div class="img-box mt-3">
                 <img src="./resources/images/about/bug.png" class="img-fluid img2" alt="...">
               </div>
@@ -237,7 +224,7 @@
             </div>
           </div>
           <div class="col-12 col-md-4">
-            <div class="card text-center" style="background-color: #CBF4DD;">
+            <div class="card card5 text-center" >
               <div class="img-box mt-3">
                 <img src="./resources/images/about/support.png" class="img-fluid img2" alt="...">
               </div>
@@ -250,7 +237,7 @@
             </div>
           </div>
           <div class="col-12 col-md-4">
-            <div class="card text-center" style="background-color: #FEDEC7;">
+            <div class="card card6 text-center" >
               <div class="img-box mt-3">
                 <img src="./resources/images/about/code.png" class="img-fluid img2" alt="...">
               </div>
@@ -268,23 +255,22 @@
     </section>
     <!-- portfolio section -->
 
-    <section class="portfolio">
+    <section class="portfolio-section">
       <div class="container">
         <div class="row text-center ">
-          <div class="parent">
+          
             <h1 class="heading mt-3">My portfolio</h1>
             <p class="heading">My Recent Work</p>
-            <div class="child2"> </div>
-          </div>
+           
         </div>
         <div class="row justify-content-center">
           <div class="col-12 col-md-4 col-lg-4">
             <div class="card" >
               <a href="./resources/images/portfolio/laravel.png" class="test">  <img src="./resources/images/portfolio/laravel.png   " class="card-img-top p-img" alt="..."></a>
               <div class="card-body text-center">
-                <h5 class="card-title" style="color: #986185; font-size: 16px; margin-top: -20px;"><i>Laravel</i></h5>
-                <h5 class="card-text" style="font-size: 20px; font-weight: 600;">E-commerce Website</b></p>
-                <a href="#" class="btn p-btn" style="margin-top: -10px; "> <i class="far fa-eye" ></i> Preview</a>
+                <h5 class="card-title title-h5" ><i>Laravel</i></h5>
+                <h5 class="card-text text-h5" >E-commerce Website</b></p>
+                <a href="#" class="btn p-btn" > <i class="far fa-eye" ></i> Preview</a>
               </div>
             </div>
           </div>
@@ -292,9 +278,9 @@
             <div class="card" >
               <a href="./resources/images/portfolio/port2.jpg" class="test"> <img src="./resources/images/portfolio/port2.jpg   " class="card-img-top p-img" alt="..."></a>
               <div class="card-body text-center">
-                <h5 class="card-title" style="color: #986185; font-size: 16px; margin-top: -20px;"><i>Wordpress</i></h5>
-                <h5 class="card-text" style="font-size: 20px; font-weight: 600;">E-commerce Website</b></p>
-                <a href="#" class="btn p-btn" style="margin-top: -10px; "> <i class="far fa-eye" ></i> Preview</a>
+                <h5 class="card-title title-h5" ><i>Wordpress</i></h5>
+                <h5 class="card-text text-h5" >E-commerce Website</b></p>
+                <a href="#" class="btn p-btn" > <i class="far fa-eye" ></i> Preview</a>
               </div>
             </div>
           </div>
@@ -302,9 +288,9 @@
             <div class="card" >
               <a href="./resources/images/portfolio/port5.jpg" class="test">  <img src="./resources/images/portfolio/port5.jpg   " class="card-img-top p-img" alt="..."></a>
               <div class="card-body text-center">
-                <h5 class="card-title" style="color: #986185; font-size: 16px; margin-top: -20px;"><i>Wordpress</i></h5>
-                <h5 class="card-text" style="font-size: 20px; font-weight: 600;">E-commerce Website</b></p>
-                <a href="#" class="btn p-btn" style="margin-top: -10px; "> <i class="far fa-eye" ></i> Preview</a>
+                <h5 class="card-title title-h5" ><i>Wordpress</i></h5>
+                <h5 class="card-text text-h5" >E-commerce Website</b></p>
+                <a href="#" class="btn p-btn" > <i class="far fa-eye" ></i> Preview</a>
               </div>
             </div>
           </div>
@@ -315,9 +301,9 @@
             <div class="card" >
               <a href="./resources/images/portfolio/vue js.png" class="test">  <img src="./resources/images/portfolio/vue js.png   " class="card-img-top p-img" alt="..."></a>
               <div class="card-body text-center">
-                <h5 class="card-title" style="color: #986185; font-size: 16px; margin-top: -20px;"><i>Vue Js</i></h5>
-                <h5 class="card-text" style="font-size: 20px; font-weight: 600;">Ice Cream Project</b></p>
-                <a href="#" class="btn p-btn" style="margin-top: -10px; "> <i class="far fa-eye" ></i> Preview</a>
+                <h5 class="card-title title-h5" ><i>Vue Js</i></h5>
+                <h5 class="card-text text-h5">Ice Cream Project</b></p>
+                <a href="#" class="btn p-btn" > <i class="far fa-eye" ></i> Preview</a>
               </div>
             </div>
           </div>
@@ -325,9 +311,9 @@
             <div class="card" >
              <a href="./resources/images/portfolio/laravel.png" class="test"> <img src="./resources/images/portfolio/laravel.png   " class="card-img-top p-img" alt="..."></a>
               <div class="card-body text-center">
-                <h5 class="card-title" style="color: #986185; font-size: 16px; margin-top: -20px;"><i>Laravel</i></h5>
-                <h5 class="card-text" style="font-size: 20px; font-weight: 600;">Blog Website</b></p>
-                <a href="#" class="btn p-btn" style="margin-top: -10px; "> <i class="far fa-eye" ></i> Preview</a>
+                <h5 class="card-title title-h5" ><i>Laravel</i></h5>
+                <h5 class="card-text text-h5" >Blog Website</b></p>
+                <a href="#" class="btn p-btn" > <i class="far fa-eye" ></i> Preview</a>
               </div>
             </div>
           </div>
@@ -335,9 +321,9 @@
             <div class="card" >
               <a href="./resources/images/portfolio/vue js2.png" class="test">  <img src="./resources/images/portfolio/vue js2.png   " class="card-img-top p-img" alt="..."></a>
               <div class="card-body text-center">
-                <h5 class="card-title" style="color: #986185; font-size: 16px; margin-top: -20px;"><i>Vue Js</i></h5>
-                <h5 class="card-text" style="font-size: 20px; font-weight: 600;">Laravel Vue Js CRUD</b></p>
-                <a href="#" class="btn p-btn" style="margin-top: -10px; "> <i class="far fa-eye" ></i> Preview</a>
+                <h5 class="card-title title-h5" ><i>Vue Js</i></h5>
+                <h5 class="card-text text-h5" >Laravel Vue Js CRUD</b></p>
+                <a href="#" class="btn p-btn" > <i class="far fa-eye" ></i> Preview</a>
               </div>
             </div>
           </div>
@@ -350,52 +336,43 @@
 
     </section>
      <!-- programming section -->
-    <section class="programing-section" style="background-color: #FFE1F4;">
-      <div class="container">
-        <div class="row text-center ">
-          <div class="parent">
+    <section class="programing-section" id="programming_section" >
+      <div class="container pb-5 pt-5">
+        <div class="text-center ">
             <h1 class="heading mt-3">My Programming Code</h1>
             <p class="heading">All Programming Code</p>
-            <div class="child3"> </div>
           </div>
-        </div>
-            <div class="row">
-              <div class="col-6">
+            <div class="row text-center">
+              <div class="col-12 col-md-6">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Accordion Item #1
+                    <h5 class="accordion-header" id="flush-headingOne">
+                      <button class="collapsed btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        DS and Algorithm <i class="far fa-angle-down"></i>
                       </button>
-                    </h2>
+                    </h5>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                       <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Accordion Item #2
-                      </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Accordion Item #3
-                      </button>
-                    </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                    </div>
+                     </div>
+                   </div>
                   </div>
                 </div>
-                
-              </div>
+                <div class="col-12 col-md-6">
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h5 class="accordion-header" id="flush-headingOne">
+                        <button class="collapsed btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Projects Development <i class="far fa-angle-down"></i>
+                        </button>
+                      </h5>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                       </div>
+                     </div>
+                    </div>
+                  </div>
             </div>
+
         
       </div>
     </section>
@@ -409,7 +386,7 @@
                 <div class="parent">
                   <h1 class="heading mt-3">My Gallery</h1>
                   <p class="heading">My Photo Gallery</p>
-                  <div class="g-child"> </div>
+                  
                 </div>
               </div>
             </div>
@@ -463,7 +440,7 @@
     </section>
 
     <!-- counter-section -->
-    <section class="counter-section " style="background-color: #245CD1;">
+    <section class="counter-section ">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-12 col-md-3 col-lg-3 ">
@@ -472,7 +449,7 @@
             </div>
             <div class="counter-box">
 
-              <h4 class="test" data-num="100"></h4>
+              <h4 class="count" data-num="25"></h4>
 
             </div>
             <p class="mb-5">Happy Client</p>
@@ -484,7 +461,7 @@
             </div>
             <div class="counter-box">
 
-              <h4 class="test" data-num="100"></h4>
+              <h4 class="count" data-num="100"></h4>
 
             </div>
             <p class="mb-5">Total Projects Done</p>
@@ -496,7 +473,7 @@
             </div>
             <div class="counter-box">
 
-              <h4 class="test" data-num="100"></h4>
+              <h4 class="count" data-num="10"></h4>
 
             </div>
             <p class="mb-5">Queue Projects</p>
@@ -508,7 +485,7 @@
             </div>
             <div class="counter-box">
 
-              <h4 class="test" data-num="100"></h4>
+              <h4 class="count" data-num="50"></h4>
 
             </div>
             <p class="mb-5">Services</p>
@@ -525,7 +502,7 @@
             <div class="parent">
               <h1 class="heading mt-3">Contact Me</h1>
               <p class="heading">I will be happy to help you. Fill out the form and I'll be in touch as soon as possible.</p>
-              <div class="c-child"> </div>
+              
             </div>
           </div>
         </div>
@@ -536,7 +513,7 @@
             <div class="largeDiv">
               <div class="row"> 
                 <div class="col-12 col-md-4 col-lg-4">
-                  <ul style="text-align: left; color: #fff;">
+                  <ul >
                     <li > <h5>  phone </h5></li>
                     <li><p>+8801864160806</p></li>
                     <li><h5>Email</h5></li>
@@ -546,15 +523,11 @@
                   </ul>
 
                   <ul id="c-social-icons">
-                    <li>
-                      <a href="https://www.facebook.com/profile.php?id=100022604701373" target="blank">
-                       <i class="fab fa-facebook"></i>
-                     </a>
-                     </li>
-                    <li><a href=""><i class="fab fa-twitch"></i></a></li>
-                    <li><a href=""><i class="fab fa-github"></i></a></li>
-                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                      <li><a href=""> <i class="fab fa-facebook"></i></a></li>
+                      <li><a href=""><i class="fab fa-twitch"></i></a></li>
+                      <li><a href=""><i class="fab fa-github"></i></a></li>
+                      <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                      <li><a href=""><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
 
@@ -588,8 +561,6 @@
                 </div>
               </div>
              
-
-              
             </div>
             <div class="smallDiv"></div>
           </div>
@@ -600,10 +571,10 @@
     <!-- footer section -->
     <footer class="footer-section mt-5">
       
-        <row class="row text-center justify-content-center">
+        <div class="row text-center justify-content-center">
           <div class="col-12 col-md-3">
             
-            <ul class="mb-5" style="list-style-type:square; text-align: start; color: #fff; ">
+            <ul class="mb-5">
               <h4 class="mt-5">Follow Me</h4>
               <li><a href="">Home</a></li>
               <li><a href=""><a href="">About</a></a></li>
@@ -613,7 +584,7 @@
           </div>
           <div class="col-12 col-md-3">
             
-            <ul class="mb-5" style="list-style-type:square; text-align: start; color: #fff; ">
+            <ul class="mb-5"  >
               <h4 class="mt-5">Follow Me</h4>
               <li><a href="">Facebook</a></li>
               <li><a href=""><a href="">Github</a></a></li>
@@ -623,7 +594,7 @@
           </div>
           <div class="col-12 col-md-3">
             
-            <ul class="mb-5" style="list-style-type:square; text-align: start; color: #fff; ">
+            <ul class="mb-5"  >
               <h4 class="mt-5">Resource</h4>
               <li><a href="">Blog</a></li>
               <li><a href=""><a href="">Codes</a></a></li>
@@ -633,19 +604,19 @@
           </div>
           <div class="col-12 col-md-3">
             
-            <ul class="mb-5" style="list-style-type:square; text-align: start; color: #fff; ">
+            <ul class="mb-5">
               <h4 class="mt-5">Hire Me</h4>
               <li><a href="">Fiver profile</a></li>
               <li><a href=""><a href="">Upwork profile</a></a></li>
               
             </ul>
           </div>
-        </row>
+        </div>
       
     </footer>
    <!-- designer section -->
     <section class="Designer-section">
-      <div class="row text-center justify-content-center">
+      <div class=" text-center justify-content-center">
         <p class="mt-4">Design & Developed with ♥ by <a href="">Arif</a></p>
       </div>
     </section>
@@ -658,9 +629,9 @@
 
     <!-- jQuery CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+    <!-- Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-     
-     
     <!-- magnadic popup js -->
     <script src="./resources/js/jquery.magnific-popup.min.js"></script>
     <!-- slick carousel -->
@@ -672,8 +643,8 @@
     <!-- partical -->
     <script src="./resources/js/particles.min.js"></script>
     <!-- counter -->
-     <!-- <script src="./resources/js/countfect.min.js"></script> -->
-     <!-- jancy box js -->
+     <script src="./resources/js/countfect.min.js"></script> 
+     <!-- fancy box js -->
      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <!-- Custom js -->
     <script src="./resources/js/main.js"></script>

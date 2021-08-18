@@ -12,6 +12,9 @@ body{
     margin: 0 auto;
     
  }
+ .heading{
+    color: #2C62D2;
+}
 
 ul{
     list-style: none;
@@ -22,16 +25,18 @@ h1,h2,h3,h4{
 }
 .logo{
     margin-left: 100px;
+    height: 45px;
 }
 .our_navbar{
     background-color: #245CD1;
 }
-.nav-item .nav-link{
+nav .nav-item .nav-link{
     text-transform: uppercase;
     color: #fff;
     font-size: 15px;
     font-weight: 500;
 }
+
 /*particl*/
 #particles-js{
     position: absolute;
@@ -42,6 +47,13 @@ h1,h2,h3,h4{
     right: 0;
 }
  /*Hero section*/
+ .hero_section span{
+    color: blueviolet; 
+    font-size: 20px; 
+    text-align: center;
+
+ }
+ 
  #hero_section{
      margin-top: 100px;
  }
@@ -191,27 +203,8 @@ h1,h2,h3,h4{
  .parent{
      position: relative;
  }
- .child{
-     position: absolute;
-     margin-left:375px ;
-     background-color:#DDDDDD;
-     width: 3px;
-     height: 70px;
-     top: 20%;
-     left: 32%;
-     padding: 2px;
- }
- .paragraph .para_nav .nav-link{
-     color: #2196F3;
-     border-radius: 4px;
-     text-transform: uppercase;
-     padding: 8px;
-     
-}
-.paragraph .para_nav .nav-link:hover{
-    border: 1px solid #dddddd  ;
 
-}
+
 
 .introduction{
     border: 1px solid #dddddd  ;
@@ -227,32 +220,41 @@ h1,h2,h3,h4{
 }
 
 /*services*/
-.services{
+.services-secton .row .card-1{
+    background-color: #CBF4DD;
+}
+.services-secton .row .card2{
+    background-color: #FEDEC7;
+}
+.services-secton .row .card3{
+    background-color: #CBF4DD;
+}
+.services-secton .row  .card4{
+    background-color: #FEDEC7;
+}
+.services-secton .row  .card5{
+    background-color: #CBF4DD;
+}
+.services-secton .row  .card6{
+    background-color: #FEDEC7;
+}
+.services-secton{
     background-color: #FDFAEA;
     text-align: center;
 }
-.heading{
+ .heading{
     color: #2C62D2;
 }
-.child2{
-    position: absolute;
-    margin-left:375px ;
-    background-color:#DDDDDD;
-    width: 3px;
-    height: 73px;
-    top: 20%;
-    left: 28%;
-    padding: 2px;
-}
-.card{
-   background-color: #CBF4DD;
+
+.services-secton .card{
+  
    width: 357px;
    height: 280px;
    border-radius: 7px;
    border: none;
 }
 
-.card .img-box{
+.services-secton .card .img-box{
     height: 90px;
     width: 90px;
     margin: 0 auto;
@@ -270,8 +272,18 @@ h1,h2,h3,h4{
 .portfolio .p-img{
     padding: 20px;
 }
+.portfolio-section .title-h5{
+    color: #986185; 
+    font-size: 16px; 
+    
+}
+.portfolio-section .text-h5{
+    font-size: 20px; 
+    font-weight: 600;
+   
+}
 
-.portfolio .card{
+.portfolio-section .card{
     background-color: #F8EFFB;
     width: 357px;
     height: 330px;
@@ -281,26 +293,27 @@ h1,h2,h3,h4{
     transition: .6s;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
-.portfolio .p-btn{
+.portfolio-section .p-btn{
     background-color: transparent;
     border: 1px solid #17A2B8;
     height: 38px;
     width: 300px;
     font-weight: 500; 
     color: #17A2B8;
+    margin-top: -10px; 
     
 }
 
 
-.portfolio .card:hover{
+.portfolio-section .card:hover{
     box-shadow: none;
 }
 
-.portfolio .p-btn:hover{
+.portfolio-section .p-btn:hover{
     background-color: #17A2B8;
     color: #fff;
 }
-.portfolio .btnMore{
+.portfolio-section .btnMore{
     border: 1px solid #17A2B8;
     font-size: 18px;
     font-weight: 500;
@@ -311,7 +324,7 @@ h1,h2,h3,h4{
 
 }
 
-.portfolio .btnMore:hover{
+.portfolio-section .btnMore:hover{
     
     background-color: #17A2B8;
     color: #fff;
@@ -319,30 +332,29 @@ h1,h2,h3,h4{
 }
 
 /*programming section*/
-.programing-section .child3{
-    position: absolute;
-    margin-left:375px ;
-    background-color:#DDDDDD;
-    width: 3px;
-    height: 73px;
-    top: 18%;
-    left: 37%;
-    padding: 2px;
+.programing-section{
+    background-color: #FFE1F4;
+}
+.programing-section .row h5{
+    padding: 11px;
+    background-color: #F7DAEC;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 3px;
+    
+}
+.programing-section .row .btn{
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.programing-section .row .btn:hover{
+    background-color: #138496;
 }
 
 
 
 /*Gallery secton*/
-.gallery-section .g-child{
-    position: absolute;
-    margin-left:375px ;
-    background-color:#DDDDDD;
-    width: 3px;
-    height: 73px;
-    top: 16%;
-    left: 27%;
-    padding: 2px;
-}
+
 
 
 .photo-gallery row{
@@ -357,6 +369,9 @@ h1,h2,h3,h4{
 }
 
 /*counter section*/
+.counter-section{
+    background-color: #245CD1;
+}
 
 .counter-section .emoji-box {
     color: #fff;
@@ -374,16 +389,10 @@ h1,h2,h3,h4{
  
 
 /*contact section*/
-.contact-section .c-child{
-    position: absolute;
-    margin-left:375px ;
-    background-color:#DDDDDD;
-    width: 3px;
-    height: 73px;
-    top: 16%;
-    left: 51%;
-    padding: 2px;
+.contact-section ul{
+    text-align: left; color: #fff;
 }
+
 
 .contact-section .smallDiv{
     background-color: #245CD1;
@@ -450,6 +459,11 @@ h1,h2,h3,h4{
 }
 
 /*Footer section*/
+.footer-section ul{
+    list-style-type:square;
+    text-align: start; 
+    color: #fff;
+}
 .footer-section .row{
     background-color: #293044;
     
