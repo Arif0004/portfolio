@@ -181,9 +181,64 @@
                         <div class="parent">
                             <h1 class="about-head animate__animated animate__zoomIn ">About Me</h1>
                             <p class="about-head animate__animated animate__zoomIn">My introduction</p>
-
                         </div>
-                        <div class="tab_buttons border-1">
+
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+                              <button class="nav-link" id="nav-skill-tab" data-bs-toggle="tab" data-bs-target="#nav-skill" type="button" role="tab" aria-controls="nav-skill" aria-selected="false">skill</button>
+                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+                            </div>
+                          </nav>
+                          <div class="tab-content mt-2" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><h4>Home Content</h4>
+                            Lorem ipsum dolor sit amet.</div>
+                            <div class="tab-pane fade" id="nav-skill" role="tabpanel" aria-labelledby="nav-skill-tab">
+                                <div class="d-flex align-items-start">
+                                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+                                      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                                      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+                                      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+                                    </div>
+                                    <div class="tab-content" id="v-pills-tabContent">
+                                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">home</div>
+                                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">profile</div>
+                                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Messages</div>
+                                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Settings</div>
+                                    </div>
+                                  </div>    
+                            </div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                <div class="card" style="border: none">
+                                    <div class="card-body" style="padding: 5px;padding-top: 8px">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                            <tr>
+                                                <th>Phone</th>
+                                                <td><span>+8801754100439</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th>Email</th>
+                                                <td><span>                                                                            <a href="mailto:mdshahinmije96@gmail.com">mdshahinmije96@gmail.com</a> 
+                                                        </span></td>
+                                            </tr>
+                                            <tr>
+                                                <th>Address</th>
+                                                <td><span>Mohakhali,Dhaka,Bangladesh</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th>Resume</th>
+                                                <td><a href="https://drive.google.com/file/d/1VITXffjRKu33QNdh6c3TAOIIJF1EasDL/view" class="btn btn-link">Resume Link</a></td>
+                                            </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                        <!-- <div class="tab_buttons border-1">
                             <div class="row">
                                 <div class="col-12">
                                     <nav>
@@ -205,7 +260,7 @@
                         <div class="tab_contents">
                             <div class="row">
                                 <div class="col-12">
-                                    <!-- Profile -->
+                                
                                     <div class="tab-content" id="nav-tabContent">
                                         <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
                                             aria-labelledby="nav-home-tab">
@@ -343,7 +398,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -561,117 +616,42 @@
                     <h1 class="heading mt-3">My Programming Code</h1>
                     <p class="heading">All Programming Code</p>
                 </div>
-                <div class="row text-center">
-                    <div class="col-12 col-md-6">
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <!-- <h5 class="accordion-header" id="flush-headingOne">
-                                    <button class="collapsed btn" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                        aria-controls="flush-collapseOne">
-                                        DS and Algorithm <i class="far fa-angle-down"></i>
-                                    </button>
-                                </h5> -->
-                                <h5 class="mb-0 accordion-header" id="flush-headingOne">
-                                    <button class="btn btn-info" data-toggle="collapse" data-target="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne">
-                                        DS and Algorithm <i class="fa fa-angle-down ml-1"></i>
-                                    </button>
-                                </h5>
-                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                    data-parent="#accordion">
-                                    <div class="card-body">
-                                        <table class="table table-hover table-bordered table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col">SL</th>
-                                                    <th scope="col">Name</th>
-                                                    <th scope="col">GitHub Link</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Tree</td>
-                                                    <td><a href="https://github.com/AR-Shahin/Data_Structure_and_Algorithm/tree/main/Tree"
-                                                            target="_blank">Tree</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <td>Link List</td>
-                                                    <td><a href="https://github.com/AR-Shahin/Data_Structure_and_Algorithm/tree/main/Link_list"
-                                                            target="_blank">Link List</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3</th>
-                                                    <td>Queue</td>
-                                                    <td><a href="#" target="_blank">Queue</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">4</th>
-                                                    <td>Stack</td>
-                                                    <td><a href="#" target="_blank">Stack</a></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
+               <div class="row mt-5">
+                   <div class="col-12 col-md-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                             </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <!-- <h5 class="accordion-header" id="flush-headingOne">
-                                    <button class="collapsed btn" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                        aria-controls="flush-collapseOne">
-                                        Projects Development <i class="far fa-angle-down"></i>
-                                    </button>
-                                </h5> -->
-                                <h5 class="mb-0 accordion-header" id="flush-headingOne">
-                                    <button class="btn btn-info" data-toggle="collapse" data-target="#collapse2"
-                                        aria-expanded="true" aria-controls="collapse2">
-                                        Projects &amp; Development <i class="fa fa-angle-down ml-1"></i>
-                                    </button>
-                                </h5>
-                                <div id="collapse2" class="collapse" aria-labelledby="heading" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <table class="table table-hover table-bordered table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col">SL</th>
-                                                    <th scope="col">Name</th>
-                                                    <th scope="col">Github Link</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Codechef</td>
-                                                    <td><a href="https://github.com/AR-Shahin/Codechef_Problem_Solving"
-                                                            target="_blank">Codechef</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <td>HackerRank</td>
-                                                    <td><a href="https://github.com/AR-Shahin/HackerRank_Problem_Solving"
-                                                            target="_blank">HackerRank</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3</th>
-                                                    <td>URI</td>
-                                                    <td><a href="https://github.com/AR-Shahin/URI_Online_Judge"
-                                                            target="_blank">URI</a></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
+                        
+                      </div>
+                   </div>
+                   <div class="col-12 col-md-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                             </div>
+                          </div>
                         </div>
-                    </div>
-                </div>
+                        
+                      </div>
+                   </div>
+               </div>
 
 
             </div>
