@@ -7,11 +7,7 @@ body{
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
 }
-.container{
-    width: 1140px;
-    margin: 0 auto;
-    
- }
+
  .heading{
     color: #2C62D2;
 }
@@ -200,9 +196,7 @@ nav .nav-item .nav-link{
     margin-left: 370px;
 
  }
- .parent{
-     position: relative;
- }
+
 
 
 
@@ -389,74 +383,74 @@ nav .nav-item .nav-link{
  
 
 /*contact section*/
-.contact-section ul{
-    text-align: left; color: #fff;
-}
 
-
-.contact-section .smallDiv{
-    background-color: #245CD1;
-    width: 860px;
-    height: 60px;
-    margin-left: 130px;
-}
-
-.contact-section .largeDiv{
-    background-color: #245CD1;
-    width: 960px;
-    height: 380px;
-    margin-left: 30px;
-    
-}
-#c-social-icons{
-     
-    margin-left: -52px;
-}
-#c-social-icons li {
-   display: inline-block;
-   height: 40px;
-   width: 40px;
-   background: #5E89E3;
-   transition: .6s;
-   border-radius: 5px;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   -ms-border-radius: 5px;
-   -o-border-radius: 5px;
-}
-#c-social-icons li a{
-    padding: 10px;
-    line-height: 2;
-    font-size: 20px;
+  
+#contact {
+    margin-top: 25px;
+    position: relative;
+  }
+  #contact .bg {
+    padding: 60px 0;
+    height: 510px;
+  }
+  #contact .bg_content {
+    padding: 0px;
+    background: red;
+    position: absolute;
+    left: 5%;
     color: #fff;
-
-}
-
-
-
-.contact-section form{
-    height: 380px;
-    width: 451px;
-    background-color: #fff;
-   
-}
-.contact-section form .form-control{
-    background-color: transparent;
-    border: 1px solid #D9D1DC;
+  }
+  #contact .bg_content h5 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0;
+  }
+  #contact .bg_content span {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0;
+  }
+  #contact .contact_media {
+    margin: 5px 0;
+  }
+  #contact .socal_links {
+    margin-right: 100px;
+  }
+  #contact .socal_links ul {
     display: flex;
-    width: 420px;
-    margin: 0 auto;
-}
-
-.contact-section form .c-btn{
-    margin-left: 335px;
-    background-color: #245CD1;
-}
-
-.contact-section form .c-btn:hover{
-    
-    background-color: #138496;
-}
+    margin-top: 15px;
+  }
+  
+  #contact .socal_links ul li {
+    margin: 0 5px;
+    width: 50px;
+    padding: 10px 15px;
+    background: #5e89e3;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.6s;
+  }
+  #contact .socal_links ul li:hover {
+    transform: scale(0.9);
+  }
+  #contact .socal_links ul li a {
+    color: #fff;
+  }
+  #contact .socal_links ul li:first-child {
+    margin-left: 0;
+  }
+  #contact form {
+    padding-top: 15px;
+  }
+  #contact .form-control::placeholder {
+    font-size: 12px;
+  }
+  #contact form > div {
+    margin: 15px 0;
+  }
 
 /*Footer section*/
 .footer-section ul{
@@ -483,6 +477,23 @@ nav .nav-item .nav-link{
     background: #0E1833;
     color: #fff;
 }
+
+/*scroll*/
+#scroll_top{
+    background-color:#777777;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    padding: 9px 15px;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
 
 
 
