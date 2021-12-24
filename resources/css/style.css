@@ -336,14 +336,27 @@ nav .nav-item .nav-link{
     border-radius: 3px;
     
 }
+.programing-section .row h2{
+background:#F7DAEC;
+}
+.programing-section .row .tableBg{
+background:#F7DAEC ;}
 .programing-section .row .btn{
     background-color: #17a2b8;
     color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .programing-section .row .btn:hover{
     background-color: #138496;
 }
+.accordion-button::after{
+color: #fff;}
+.programing-section table a{
+text-decoration: none;}
 
 
 
