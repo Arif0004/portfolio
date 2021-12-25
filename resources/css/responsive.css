@@ -69,6 +69,12 @@
   #contact form {
     margin-top: 5px;
   }
+  #about_section ul li span{
+   padding: 0;
+}
+#about_section ul li{
+    margin-top: 0px;    
+}
 
 }
 

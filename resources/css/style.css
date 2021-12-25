@@ -196,7 +196,10 @@ nav .nav-item .nav-link{
     margin-left: 370px;
 
  }
-
+/*navbar*/
+#navbarNav .nav-item a:hover{
+color:black;
+}
 
 
 
@@ -212,6 +215,49 @@ nav .nav-item .nav-link{
 .introduction p{
     font-size: 14px;
 }
+/*about section*/
+
+#about_section ul{
+justify-content:center ;
+}
+
+#about_section ul li{
+    display: inline-block;
+    color: black;
+    margin-top: 5px;   
+}
+#about_section ul li span{
+    background:blue;
+    color:#fff;  
+    padding: 2px;
+}
+
+#about_section nav button {
+color: blue;
+  
+}
+#about_section nav button:hover {
+    color:black;
+      
+    }
+#about_section table a{
+    text-decoration: none;
+}
+#about_section .pos_content{
+   position: absolute;
+   right: 0;
+   bottom:0;
+   background: #6D214F;
+   color:#fff;
+   padding: 10px;
+   border-top-left-radius: 5px;
+       
+ }
+  #nav-skill{
+ border: #986185;
+ background: #F8EFBA;
+ 
+  }
 
 /*services*/
 .services-secton .row .card-1{
