@@ -224,7 +224,7 @@ justify-content:center ;
 #about_section ul li{
     display: inline-block;
     color: black;
-    margin-top: 5px;   
+    margin-top: 8px;   
 }
 #about_section ul li span{
     background:blue;
@@ -254,7 +254,7 @@ color: blue;
        
  }
   #nav-skill{
- border: #986185;
+ 
  background: #F8EFBA;
  
   }
@@ -347,11 +347,14 @@ color: blue;
 
 .portfolio-section .card:hover{
     box-shadow: none;
+    transition-duration:.8s;
+    
 }
 
 .portfolio-section .p-btn:hover{
     background-color: #17A2B8;
     color: #fff;
+    transition-duration:.8s;
 }
 .portfolio-section .btnMore{
     border: 1px solid #17A2B8;
@@ -368,6 +371,7 @@ color: blue;
     
     background-color: #17A2B8;
     color: #fff;
+    
 
 }
 

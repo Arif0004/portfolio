@@ -15,7 +15,19 @@
   /*about*/
    .about-head{
      margin-left: 0px;
-
+}
+#about_section ul li span{
+    background:red;
+    padding: 2px;
+    
+}
+#about_section ul{
+   
+    margin-left: -20px;   
+    margin-top: 10px;
+}
+#about_section .card-body{
+margin-left: -16px;
 }
 .heading{
   text-align: left;
@@ -69,12 +81,7 @@
   #contact form {
     margin-top: 5px;
   }
-  #about_section ul li span{
-   padding: 0;
-}
-#about_section ul li{
-    margin-top: 0px;    
-}
+  
 
 }
 
@@ -82,9 +89,7 @@
 
 
 
-/* @media (min-width:380px) and (max-width:575px) {
-  body{
-    background: red;
-  }
+@media (min-width:380px) and (max-width:575px) {
+ 
 
-} */
+}
