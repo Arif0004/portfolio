@@ -5,10 +5,9 @@
   #particles-js{
     height: 80vh;
   }
-   .hero_section .img{
-     width: 30%;
-
-  }
+  .hero_section .img {
+    width: 100%;
+}
   .hero-content{
     margin-top: 40px;
     }
