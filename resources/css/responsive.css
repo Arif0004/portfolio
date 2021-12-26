@@ -83,6 +83,16 @@ margin-left: -16px;
   
 
 }
+#link_section{
+    padding: 25px 0;
+}
+#link_section .col-12{
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+#link_section .custom_textRight{
+    text-align: right;
+}
 
 
 
