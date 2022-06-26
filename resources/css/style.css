@@ -479,11 +479,12 @@ text-decoration: none;}
     margin: 5px 0;
   }
   #contact .socal_links {
-    margin-right: 100px;
+    margin-right: 80px;
   }
   #contact .socal_links ul {
     display: flex;
     margin-top: 15px;
+    margin-left: -33px;
   }
   
   #contact .socal_links ul li {
