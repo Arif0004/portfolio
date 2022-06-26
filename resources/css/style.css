@@ -516,6 +516,10 @@ text-decoration: none;}
   }
 
 /*Footer section*/
+.grid-container{
+    display: flex;
+    justify-content:space-around;
+}
 #link_section{
     background: #293044;
     color: #fff;
@@ -565,6 +569,7 @@ footer span b{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
 
 
 

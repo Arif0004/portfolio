@@ -151,7 +151,7 @@ $(document).ready(function() {
         loop: true,
         center: true,
         autoplay: true,
-        autoplayTime: 500
+        autoplayTime: 10
     });
 
     /*Magnafic popup */
